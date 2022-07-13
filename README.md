@@ -3,6 +3,7 @@ Replication files and repository for the paper "Decomposing Trends in U.S. Air P
 
 The dataset census_tract_year_pm25_from_electricity.dta contains census tract level data for 2000-2018 with the following variables:
 
+```
 gisjoin: census tract ID.
 
 year: calendar year.
@@ -20,5 +21,6 @@ hispanic_pct: percent of Hispanic population at the census tract level from the 
 total_pop: 2000-2018 average total population at the census tract level from the ACS.
 
 fuel: "all" which denotes that the emissions come from all the facilities, regardless of the fuel used.
+```
 
 The do file HCMW_figure4_replication.do uses the census_tract_year_pm25_from_electricity.dta dataset to replicate Figure 4 of the manuscript.
